@@ -8,7 +8,7 @@ Mendukung operasi **Read (GET)**  melalui dua endpoint utama:
 | /items/          | GET    | Mengambil semua item                                | List[ItemResponse] |
 | /items/{item_id} | GET    | mengambil satu item berdasarkan ID                  | ItemResponse       |
 
-## Tujuan Proyek
+## Tujuan Project
 Proyek ini bertujuan untuk membuat **API sederhana menggunakan FastAPI dan SQLite** untuk mengelola data items.  
 Hands-on ini mengimplementasikan **FastAPI + SQLAlchemy + SQLite** dengan **validasi Pydantic** untuk memastikan data output sesuai format, serta membiasakan penggunaan **Swagger UI** untuk dokumentasi interaktif.
 
@@ -61,5 +61,5 @@ uvicorn main:app --reload
 http://127.0.0.1:8000/docs
 ```
 ## Swagger UI
-!(foto.png)
+![](foto.png)
 
